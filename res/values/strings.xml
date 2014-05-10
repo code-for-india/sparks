@@ -8,21 +8,21 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="drawer_open">Slider Menu Opened</string>
     <string name="drawer_close">Slider Menu Closed</string>
-   <string name="domain_name">http://celebrityprofile.in</string>
+    <string name="domain_name">http://celebrityprofile.in</string>
     <string name="api_path">/api/cfihack.php</string>
     <string name="pass_name">cfihack</string>
 
     <!-- Nav Drawer Menu Items -->
     <string-array name="nav_drawer_items">
-        <item >HOME</item>
-        <item >INTRODUCTION</item>
-        <item >FACTS </item>
-        <item >QUIZ</item>
-        <item >VIDEOS</item>
-        <item >TeachAIDS</item>
-        <item >PREVENTION</item>
+        <item>HOME</item>
+        <item>INTRODUCTION</item>
+        <item>FACTS </item>
+        <item>QUIZ</item>
+        <item>VIDEOS</item>
+        <item>TeachAIDS</item>
+        <item>PREVENTION</item>
     </string-array>
-    
+
     <string name="home">HOME</string>
     <string name="introduction">INTRODUCTION</string>
     <string name="facts">FACTS</string>
@@ -30,9 +30,12 @@
     <string name="videos">VIDEOS</string>
     <string name="audios">TeachAIDS</string>
     <string name="prevention">PREVENTION</string>
-    
     <string name="listen">Listen</string>
-    
+    <string name="question">Question</string>
+    <string name="question1">Does HIV spread through air?</string>
+    <string name="question2">Can you get HIV from sharing a needle with someone?</string>
+    <string name="question3">Does HIV spread through fluids like saliva?</string>
+    <string name="question4">Does HIV spread through air?</string>
 
     <!-- Nav Drawer List Item Icons -->
     <!-- Keep them in order as the titles are in -->
@@ -45,18 +48,14 @@
         <item>@drawable/ic_friends</item>
         <item>@drawable/ic_settings</item>
     </array>
-    
-    <string name="hindi">Hindi</string>
-     <string name="english">English</string>
-     <string name="tamil">Tamil</string>
-    
-    <string name="rolling_text">
-"As regards the laudable, humane work TeachAIDS is carrying out, in creating a united front to combat HIV/AIDS, by means of educational material for children the world over, I would willingly like to offer my help. We can tackle this epidemic by breaking the silence and removing the stigma that surrounds this disease." - Amitabh Bachchan</string>
 
-    
-    <string name="teachaids">TeachAIDS is an organization that develops pedagogically-grounded and evidence-based HIV and AIDS materials localized for countries around the world. Their research has shown tremendous gains in knowledge and retention, along with corresponding positive changes in attitudes. Over the past several years, they have partnered with dozens of leading organizations (e.g., governments, institutions, NGOs) in numerous countries to bring high-quality education materials to learners of all ages.TeachAIDS ia joint collaboration of Dr.Priya Sorcar  (the founder and CEO of TeachAIDS) and several world-class interdisciplinary at Stanford University. She has been named to MIT TR35 list of 35 innovators in the world under 35. The TeachAIDS materials beautifully incorporate these critical “best practices.” Using an extensive iterative design approach, these materials use visual information to communicate essential messages to young people. What all of these interactive versions have in common is that they are based on the critically important assumption that effective HIV and AIDS education must be delivered with content tailored to the learner’s cultural background. TeachAIDS has developed a breakthrough approach to providing HIV and AIDS education. With tremendous gains in knowledge and retention, the TeachAIDS materials have shown the highest learning effects of any tested curriculum. They consist of professionally developed interactive animated software, which incorporate the voices of celebrities such as Shabana Azmi, Nagarjuna Akkineni, Shruti Haasan, and Amol Palekar and are distributed entirely for free. It uses the engaging power of culturally-sensitive animated characters portrayed in an interactive format to describe all of the elements involved in sexual risk behavior that can lead to HIV infection.
-        
-    </string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="hindi">Hindi</string>
+    <string name="english">English</string>
+    <string name="tamil">Tamil</string>
+    <string name="rolling_text">"As regards the laudable, humane work TeachAIDS is carrying out, in creating a united front to combat HIV/AIDS, by means of educational material for children the world over, I would willingly like to offer my help. We can tackle this epidemic by breaking the silence and removing the stigma that surrounds this disease." - Amitabh Bachchan</string>
+    <string name="teachaids">TeachAIDS is an organization that develops pedagogically-grounded and evidence-based HIV and AIDS materials localized for countries around the world. Their research has shown tremendous gains in knowledge and retention, along with corresponding positive changes in attitudes. Over the past several years, they have partnered with dozens of leading organizations (e.g., governments, institutions, NGOs) in numerous countries to bring high-quality education materials to learners of all ages.TeachAIDS ia joint collaboration of Dr.Priya Sorcar  (the founder and CEO of TeachAIDS) and several world-class interdisciplinary at Stanford University. She has been named to MIT TR35 list of 35 innovators in the world under 35. The TeachAIDS materials beautifully incorporate these critical “best practices.” Using an extensive iterative design approach, these materials use visual information to communicate essential messages to young people. What all of these interactive versions have in common is that they are based on the critically important assumption that effective HIV and AIDS education must be delivered with content tailored to the learner’s cultural background. TeachAIDS has developed a breakthrough approach to providing HIV and AIDS education. With tremendous gains in knowledge and retention, the TeachAIDS materials have shown the highest learning effects of any tested curriculum. They consist of professionally developed interactive animated software, which incorporate the voices of celebrities such as Shabana Azmi, Nagarjuna Akkineni, Shruti Haasan, and Amol Palekar and are distributed entirely for free. It uses the engaging power of culturally-sensitive animated characters portrayed in an interactive format to describe all of the elements involved in sexual risk behavior that can lead to HIV infection.</string>
     <!-- Content Description -->
     <string name="desc_list_item_icon">Item Icon</string>
 

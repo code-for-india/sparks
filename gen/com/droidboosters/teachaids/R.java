@@ -155,21 +155,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int list_item_bg_normal=0x7f020025;
         public static final int list_item_bg_pressed=0x7f020026;
         public static final int list_selector=0x7f020027;
-        public static final int splash=0x7f020028;
-        public static final int yourdeals_circle_icon=0x7f020029;
-        public static final int yourdeals_circle_icon_pressed=0x7f02002a;
+        public static final int quiz_bg=0x7f020028;
+        public static final int splash=0x7f020029;
+        public static final int yourdeals_circle_icon=0x7f02002a;
+        public static final int yourdeals_circle_icon_pressed=0x7f02002b;
     }
     public static final class id {
-        public static final int action_english=0x7f0b002b;
-        public static final int action_hindi=0x7f0b002c;
-        public static final int action_settings=0x7f0b002a;
-        public static final int action_tamil=0x7f0b002d;
+        public static final int action_english=0x7f0b0031;
+        public static final int action_hindi=0x7f0b0032;
+        public static final int action_settings=0x7f0b0030;
+        public static final int action_tamil=0x7f0b0033;
         public static final int actionbar_image=0x7f0b0000;
         public static final int actionbar_text=0x7f0b0001;
         public static final int arc_menu=0x7f0b0023;
         public static final int company_name=0x7f0b0009;
         public static final int container=0x7f0b000a;
-        public static final int control_hint=0x7f0b0027;
+        public static final int control_hint=0x7f0b002d;
         public static final int control_layout=0x7f0b0018;
         public static final int counter=0x7f0b001d;
         public static final int counter_text=0x7f0b000f;
@@ -191,10 +192,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int next_text=0x7f0b0011;
         public static final int next_video_header=0x7f0b000e;
         public static final int nextvideo=0x7f0b0012;
+        public static final int noButton=0x7f0b002b;
         public static final int overlay=0x7f0b0021;
+        public static final int pager=0x7f0b0027;
+        public static final int pagerTabSTrip=0x7f0b0028;
         public static final int password=0x7f0b0005;
         public static final int post_video_layout=0x7f0b000d;
         public static final int progressBar=0x7f0b000c;
+        public static final int question_frame=0x7f0b0029;
+        public static final int question_text=0x7f0b002c;
         public static final int seconds=0x7f0b0010;
         public static final int textView1=0x7f0b0026;
         public static final int textWidget=0x7f0b0022;
@@ -204,8 +210,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int userName=0x7f0b001a;
         public static final int videoView=0x7f0b000b;
         public static final int videoView1=0x7f0b0025;
-        public static final int video_thumbnail=0x7f0b0028;
-        public static final int video_title=0x7f0b0029;
+        public static final int video_thumbnail=0x7f0b002e;
+        public static final int video_title=0x7f0b002f;
+        public static final int yesButton=0x7f0b002a;
     }
     public static final class layout {
         public static final int actionbar_common=0x7f030000;
@@ -217,18 +224,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int arc_menu=0x7f030006;
         public static final int drawer_list_header=0x7f030007;
         public static final int drawer_list_item=0x7f030008;
-        public static final int fragment_all_deals=0x7f030009;
-        public static final int fragment_click_n_share=0x7f03000a;
+        public static final int fragment_click_n_share=0x7f030009;
+        public static final int fragment_facts=0x7f03000a;
         public static final int fragment_friends=0x7f03000b;
         public static final int fragment_home=0x7f03000c;
         public static final int fragment_introduction=0x7f03000d;
-        public static final int fragment_my_deals=0x7f03000e;
+        public static final int fragment_quiz=0x7f03000e;
         public static final int fragment_settings=0x7f03000f;
         public static final int fragment_teach_aid=0x7f030010;
         public static final int fragment_teachaids=0x7f030011;
         public static final int fragment_videos=0x7f030012;
-        public static final int ray_menu=0x7f030013;
-        public static final int videos_item_layout=0x7f030014;
+        public static final int question_text=0x7f030013;
+        public static final int ray_menu=0x7f030014;
+        public static final int videos_item_layout=0x7f030015;
     }
     public static final class menu {
         public static final int teach_aid=0x7f0a0000;
@@ -246,25 +254,32 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Content Description 
  Content Description 
          */
-        public static final int desc_list_item_icon=0x7f070017;
+        public static final int desc_list_item_icon=0x7f07001e;
         public static final int domain_name=0x7f070007;
         public static final int drawer_close=0x7f070006;
         public static final int drawer_open=0x7f070005;
-        public static final int english=0x7f070013;
+        public static final int english=0x7f07001a;
         public static final int facts=0x7f07000c;
-        public static final int hindi=0x7f070012;
+        public static final int hindi=0x7f070019;
         public static final int home=0x7f07000a;
         public static final int introduction=0x7f07000b;
         public static final int listen=0x7f070011;
+        public static final int no=0x7f070018;
         public static final int pass_name=0x7f070009;
         public static final int prevention=0x7f070010;
+        public static final int question=0x7f070012;
+        public static final int question1=0x7f070013;
+        public static final int question2=0x7f070014;
+        public static final int question3=0x7f070015;
+        public static final int question4=0x7f070016;
         public static final int quiz=0x7f07000d;
-        public static final int rolling_text=0x7f070015;
-        public static final int tamil=0x7f070014;
-        public static final int teachaids=0x7f070016;
+        public static final int rolling_text=0x7f07001c;
+        public static final int tamil=0x7f07001b;
+        public static final int teachaids=0x7f07001d;
         public static final int title_activity_login=0x7f070004;
         public static final int title_activity_splash=0x7f070002;
         public static final int videos=0x7f07000e;
+        public static final int yes=0x7f070017;
     }
     public static final class style {
         /** 
