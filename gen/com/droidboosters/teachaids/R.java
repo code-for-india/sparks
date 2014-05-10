@@ -225,9 +225,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int fragment_my_deals=0x7f03000e;
         public static final int fragment_settings=0x7f03000f;
         public static final int fragment_teach_aid=0x7f030010;
-        public static final int fragment_videos=0x7f030011;
-        public static final int ray_menu=0x7f030012;
-        public static final int videos_item_layout=0x7f030013;
+        public static final int fragment_teachaids=0x7f030011;
+        public static final int fragment_videos=0x7f030012;
+        public static final int ray_menu=0x7f030013;
+        public static final int videos_item_layout=0x7f030014;
     }
     public static final class menu {
         public static final int teach_aid=0x7f0a0000;
@@ -245,7 +246,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Content Description 
  Content Description 
          */
-        public static final int desc_list_item_icon=0x7f070016;
+        public static final int desc_list_item_icon=0x7f070017;
         public static final int domain_name=0x7f070007;
         public static final int drawer_close=0x7f070006;
         public static final int drawer_open=0x7f070005;
@@ -260,6 +261,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int quiz=0x7f07000d;
         public static final int rolling_text=0x7f070015;
         public static final int tamil=0x7f070014;
+        public static final int teachaids=0x7f070016;
         public static final int title_activity_login=0x7f070004;
         public static final int title_activity_splash=0x7f070002;
         public static final int videos=0x7f07000e;

@@ -44,7 +44,7 @@ import com.droidboosters.teachaids.customviews.TypefaceSpan;
 import com.droidboosters.teachaids.fragments.QuizFragment;
 import com.droidboosters.teachaids.fragments.IntroductionFragment;
 import com.droidboosters.teachaids.fragments.VideosFragment;
-import com.droidboosters.teachaids.fragments.AudiosFragment;
+import com.droidboosters.teachaids.fragments.TeachAIDSFragment;
 import com.droidboosters.teachaids.fragments.HomeFragment;
 import com.droidboosters.teachaids.fragments.FactsFragment;
 import com.droidboosters.teachaids.fragments.PreventionFragment;
@@ -428,7 +428,7 @@ public class TeachAIDSActivity extends FragmentActivity implements
 			setTitle(getResources().getString(R.string.videos));
 			break;
 		case 6:
-			fragment = new AudiosFragment();
+			fragment = new TeachAIDSFragment();
 			setTitle(getResources().getString(R.string.audios));
 			break;
 		case 7:
