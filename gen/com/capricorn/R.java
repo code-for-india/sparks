@@ -24,13 +24,13 @@ public final class R {
 		public static final int composer_icn_plus = 0x7f020011;
 		public static final int composer_icn_plus_normal = 0x7f020012;
 		public static final int composer_icn_plus_pressed = 0x7f020013;
-		public static final int yourdeals_circle_icon = 0x7f020027;
-		public static final int yourdeals_circle_icon_pressed = 0x7f020028;
+		public static final int yourdeals_circle_icon = 0x7f020029;
+		public static final int yourdeals_circle_icon_pressed = 0x7f02002a;
 	}
 	public static final class id {
-		public static final int control_hint = 0x7f0a0024;
-		public static final int control_layout = 0x7f0a0017;
-		public static final int item_layout = 0x7f0a0016;
+		public static final int control_hint = 0x7f0b0024;
+		public static final int control_layout = 0x7f0b0018;
+		public static final int item_layout = 0x7f0b0017;
 	}
 	public static final class layout {
 		public static final int arc_menu = 0x7f030006;

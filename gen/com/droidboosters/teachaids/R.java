@@ -16,12 +16,12 @@ public final class R {
  Nav Drawer List Item Icons 
  Keep them in order as the titles are in 
          */
-        public static final int nav_drawer_icons=0x7f070001;
+        public static final int nav_drawer_icons=0x7f080001;
         /**  Nav Drawer Menu Items 
  Nav Drawer Menu Items 
  Nav Drawer Menu Items 
          */
-        public static final int nav_drawer_items=0x7f070000;
+        public static final int nav_drawer_items=0x7f080000;
     }
     public static final class attr {
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -69,38 +69,38 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int toDegrees=0x7f010001;
     }
     public static final class color {
-        public static final int actionbar_bottomcolor=0x7f04000e;
-        public static final int background_color=0x7f040003;
-        public static final int black_overlay=0x7f040001;
-        public static final int counter_text_bg=0x7f04000b;
-        public static final int counter_text_color=0x7f04000c;
-        public static final int facebook_icon_color=0x7f040019;
-        public static final int grid_state_focused=0x7f040011;
-        public static final int grid_state_pressed=0x7f040010;
-        public static final int home_background=0x7f040002;
-        public static final int home_icon_color=0x7f040012;
-        public static final int list_background=0x7f040008;
-        public static final int list_background_pressed=0x7f040009;
-        public static final int list_divider=0x7f04000a;
-        public static final int list_item_title=0x7f040007;
-        public static final int login_page_text_color=0x7f040006;
-        public static final int main_color=0x7f04000d;
-        public static final int photos_icon_color=0x7f040013;
-        public static final int profile_icon_color=0x7f04001a;
-        public static final int ratenow_text_color=0x7f04000f;
-        public static final int settings_icon_color=0x7f040018;
-        public static final int settings_text_color=0x7f04001b;
-        public static final int social_icon_color=0x7f040017;
-        public static final int splash_bg_color=0x7f040000;
-        public static final int splash_text_color=0x7f040004;
-        public static final int trailer_videos_icon_color=0x7f040015;
-        public static final int videos_icon_color=0x7f040014;
-        public static final int videos_item_background=0x7f04001c;
-        public static final int videos_item_dividerbottom=0x7f04001e;
-        public static final int videos_item_dividertop=0x7f04001d;
-        public static final int videos_item_text=0x7f04001f;
-        public static final int whatshot_icon_color=0x7f040016;
-        public static final int white_color=0x7f040005;
+        public static final int actionbar_bottomcolor=0x7f05000e;
+        public static final int background_color=0x7f050003;
+        public static final int black_overlay=0x7f050001;
+        public static final int counter_text_bg=0x7f05000b;
+        public static final int counter_text_color=0x7f05000c;
+        public static final int facebook_icon_color=0x7f050019;
+        public static final int grid_state_focused=0x7f050011;
+        public static final int grid_state_pressed=0x7f050010;
+        public static final int home_background=0x7f050002;
+        public static final int home_icon_color=0x7f050012;
+        public static final int list_background=0x7f050008;
+        public static final int list_background_pressed=0x7f050009;
+        public static final int list_divider=0x7f05000a;
+        public static final int list_item_title=0x7f050007;
+        public static final int login_page_text_color=0x7f050006;
+        public static final int main_color=0x7f05000d;
+        public static final int photos_icon_color=0x7f050013;
+        public static final int profile_icon_color=0x7f05001a;
+        public static final int ratenow_text_color=0x7f05000f;
+        public static final int settings_icon_color=0x7f050018;
+        public static final int settings_text_color=0x7f05001b;
+        public static final int social_icon_color=0x7f050017;
+        public static final int splash_bg_color=0x7f050000;
+        public static final int splash_text_color=0x7f050004;
+        public static final int trailer_videos_icon_color=0x7f050015;
+        public static final int videos_icon_color=0x7f050014;
+        public static final int videos_item_background=0x7f05001c;
+        public static final int videos_item_dividerbottom=0x7f05001e;
+        public static final int videos_item_dividertop=0x7f05001d;
+        public static final int videos_item_text=0x7f05001f;
+        public static final int whatshot_icon_color=0x7f050016;
+        public static final int white_color=0x7f050005;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -110,9 +110,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
          */
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
-        public static final int navigation_drawer_width=0x7f050002;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
+        public static final int navigation_drawer_width=0x7f060002;
     }
     public static final class drawable {
         public static final int aids_rounded=0x7f020000;
@@ -138,69 +138,71 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int counter_bg=0x7f020014;
         public static final int drawer_shadow=0x7f020015;
         public static final int grey_wash_wall=0x7f020016;
-        public static final int ic_alldeals=0x7f020017;
-        public static final int ic_checkin=0x7f020018;
-        public static final int ic_clicknshare=0x7f020019;
-        public static final int ic_drawer=0x7f02001a;
-        public static final int ic_friends=0x7f02001b;
-        public static final int ic_home=0x7f02001c;
-        public static final int ic_launcher=0x7f02001d;
-        public static final int ic_menu_star=0x7f02001e;
-        public static final int ic_mydeals=0x7f02001f;
-        public static final int ic_settings=0x7f020020;
-        public static final int icon=0x7f020021;
-        public static final int karthi=0x7f020022;
-        public static final int list_item_bg_normal=0x7f020023;
-        public static final int list_item_bg_pressed=0x7f020024;
-        public static final int list_selector=0x7f020025;
-        public static final int splash=0x7f020026;
-        public static final int yourdeals_circle_icon=0x7f020027;
-        public static final int yourdeals_circle_icon_pressed=0x7f020028;
+        public static final int guy=0x7f020017;
+        public static final int ic_alldeals=0x7f020018;
+        public static final int ic_checkin=0x7f020019;
+        public static final int ic_clicknshare=0x7f02001a;
+        public static final int ic_drawer=0x7f02001b;
+        public static final int ic_friends=0x7f02001c;
+        public static final int ic_home=0x7f02001d;
+        public static final int ic_launcher=0x7f02001e;
+        public static final int ic_menu_star=0x7f02001f;
+        public static final int ic_mydeals=0x7f020020;
+        public static final int ic_settings=0x7f020021;
+        public static final int icon=0x7f020022;
+        public static final int karthi=0x7f020023;
+        public static final int lady=0x7f020024;
+        public static final int list_item_bg_normal=0x7f020025;
+        public static final int list_item_bg_pressed=0x7f020026;
+        public static final int list_selector=0x7f020027;
+        public static final int splash=0x7f020028;
+        public static final int yourdeals_circle_icon=0x7f020029;
+        public static final int yourdeals_circle_icon_pressed=0x7f02002a;
     }
     public static final class id {
-        public static final int action_english=0x7f0a0028;
-        public static final int action_hindi=0x7f0a0029;
-        public static final int action_settings=0x7f0a0027;
-        public static final int action_tamil=0x7f0a002a;
-        public static final int actionbar_image=0x7f0a0000;
-        public static final int actionbar_text=0x7f0a0001;
-        public static final int arc_menu=0x7f0a0023;
-        public static final int company_name=0x7f0a0009;
-        public static final int container=0x7f0a000a;
-        public static final int control_hint=0x7f0a0024;
-        public static final int control_layout=0x7f0a0017;
-        public static final int counter=0x7f0a001c;
-        public static final int counter_text=0x7f0a000f;
-        public static final int drawer_layout=0x7f0a0013;
-        public static final int email=0x7f0a0004;
-        public static final int facebookButton=0x7f0a0007;
-        public static final int frame_container=0x7f0a0014;
-        public static final int fullscreen_content=0x7f0a0003;
-        public static final int headerFrameLayout=0x7f0a001f;
-        public static final int icon=0x7f0a001a;
-        public static final int imageBackground=0x7f0a0020;
-        public static final int imageView=0x7f0a0008;
-        public static final int item_layout=0x7f0a0016;
-        public static final int list_slidermenu=0x7f0a0015;
-        public static final int loginButton=0x7f0a0006;
-        public static final int logo=0x7f0a0002;
-        public static final int map=0x7f0a001e;
-        public static final int next_text=0x7f0a0012;
-        public static final int next_video_header=0x7f0a000e;
-        public static final int nextvideo=0x7f0a0011;
-        public static final int overlay=0x7f0a0021;
-        public static final int password=0x7f0a0005;
-        public static final int post_video_layout=0x7f0a000d;
-        public static final int progressBar=0x7f0a000c;
-        public static final int seconds=0x7f0a0010;
-        public static final int textWidget=0x7f0a0022;
-        public static final int title=0x7f0a001b;
-        public static final int txtLabel=0x7f0a001d;
-        public static final int userIcon=0x7f0a0018;
-        public static final int userName=0x7f0a0019;
-        public static final int videoView=0x7f0a000b;
-        public static final int video_thumbnail=0x7f0a0025;
-        public static final int video_title=0x7f0a0026;
+        public static final int action_english=0x7f0b0028;
+        public static final int action_hindi=0x7f0b0029;
+        public static final int action_settings=0x7f0b0027;
+        public static final int action_tamil=0x7f0b002a;
+        public static final int actionbar_image=0x7f0b0000;
+        public static final int actionbar_text=0x7f0b0001;
+        public static final int arc_menu=0x7f0b0023;
+        public static final int company_name=0x7f0b0009;
+        public static final int container=0x7f0b000a;
+        public static final int control_hint=0x7f0b0024;
+        public static final int control_layout=0x7f0b0018;
+        public static final int counter=0x7f0b001d;
+        public static final int counter_text=0x7f0b000f;
+        public static final int drawer_layout=0x7f0b0014;
+        public static final int email=0x7f0b0004;
+        public static final int facebookButton=0x7f0b0007;
+        public static final int frame_container=0x7f0b0015;
+        public static final int fullscreen_content=0x7f0b0003;
+        public static final int headerFrameLayout=0x7f0b001f;
+        public static final int icon=0x7f0b001b;
+        public static final int imageBackground=0x7f0b0020;
+        public static final int imageView=0x7f0b0008;
+        public static final int item_layout=0x7f0b0017;
+        public static final int lady=0x7f0b0012;
+        public static final int list_slidermenu=0x7f0b0016;
+        public static final int loginButton=0x7f0b0006;
+        public static final int logo=0x7f0b0002;
+        public static final int next_text=0x7f0b0013;
+        public static final int next_video_header=0x7f0b000e;
+        public static final int nextvideo=0x7f0b0011;
+        public static final int overlay=0x7f0b0021;
+        public static final int password=0x7f0b0005;
+        public static final int post_video_layout=0x7f0b000d;
+        public static final int progressBar=0x7f0b000c;
+        public static final int seconds=0x7f0b0010;
+        public static final int textWidget=0x7f0b0022;
+        public static final int title=0x7f0b001c;
+        public static final int txtLabel=0x7f0b001e;
+        public static final int userIcon=0x7f0b0019;
+        public static final int userName=0x7f0b001a;
+        public static final int videoView=0x7f0b000b;
+        public static final int video_thumbnail=0x7f0b0025;
+        public static final int video_title=0x7f0b0026;
     }
     public static final class layout {
         public static final int actionbar_common=0x7f030000;
@@ -213,10 +215,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int drawer_list_header=0x7f030007;
         public static final int drawer_list_item=0x7f030008;
         public static final int fragment_all_deals=0x7f030009;
-        public static final int fragment_checkin=0x7f03000a;
-        public static final int fragment_click_n_share=0x7f03000b;
-        public static final int fragment_friends=0x7f03000c;
-        public static final int fragment_home=0x7f03000d;
+        public static final int fragment_click_n_share=0x7f03000a;
+        public static final int fragment_friends=0x7f03000b;
+        public static final int fragment_home=0x7f03000c;
+        public static final int fragment_introduction=0x7f03000d;
         public static final int fragment_my_deals=0x7f03000e;
         public static final int fragment_settings=0x7f03000f;
         public static final int fragment_teach_aid=0x7f030010;
@@ -225,35 +227,38 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int videos_item_layout=0x7f030013;
     }
     public static final class menu {
-        public static final int teach_aid=0x7f090000;
+        public static final int teach_aid=0x7f0a0000;
+    }
+    public static final class raw {
+        public static final int hivbasic=0x7f040000;
     }
     public static final class string {
-        public static final int action_settings=0x7f060001;
-        public static final int api_path=0x7f060008;
-        public static final int app_name=0x7f060000;
-        public static final int audios=0x7f06000f;
-        public static final int celebrity_name=0x7f060009;
-        public static final int company=0x7f060003;
+        public static final int action_settings=0x7f070001;
+        public static final int api_path=0x7f070008;
+        public static final int app_name=0x7f070000;
+        public static final int audios=0x7f07000f;
+        public static final int company=0x7f070003;
         /**  Content Description 
  Content Description 
  Content Description 
          */
-        public static final int desc_list_item_icon=0x7f060015;
-        public static final int domain_name=0x7f060007;
-        public static final int drawer_close=0x7f060006;
-        public static final int drawer_open=0x7f060005;
-        public static final int english=0x7f060012;
-        public static final int facts=0x7f06000c;
-        public static final int hindi=0x7f060011;
-        public static final int home=0x7f06000a;
-        public static final int introduction=0x7f06000b;
-        public static final int prevention=0x7f060010;
-        public static final int quiz=0x7f06000d;
-        public static final int rolling_text=0x7f060014;
-        public static final int tamil=0x7f060013;
-        public static final int title_activity_login=0x7f060004;
-        public static final int title_activity_splash=0x7f060002;
-        public static final int videos=0x7f06000e;
+        public static final int desc_list_item_icon=0x7f070015;
+        public static final int domain_name=0x7f070007;
+        public static final int drawer_close=0x7f070006;
+        public static final int drawer_open=0x7f070005;
+        public static final int english=0x7f070012;
+        public static final int facts=0x7f07000c;
+        public static final int hindi=0x7f070011;
+        public static final int home=0x7f07000a;
+        public static final int introduction=0x7f07000b;
+        public static final int pass_name=0x7f070009;
+        public static final int prevention=0x7f070010;
+        public static final int quiz=0x7f07000d;
+        public static final int rolling_text=0x7f070014;
+        public static final int tamil=0x7f070013;
+        public static final int title_activity_login=0x7f070004;
+        public static final int title_activity_splash=0x7f070002;
+        public static final int videos=0x7f07000e;
     }
     public static final class style {
         /** 
@@ -268,17 +273,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f080008;
+        public static final int AppBaseTheme=0x7f090008;
         /**  Base application theme. 
          */
-        public static final int AppTheme=0x7f080000;
-        public static final int AppTheme_FullScreen=0x7f080007;
-        public static final int ButtonBar=0x7f080003;
-        public static final int ButtonBarButton=0x7f080004;
-        public static final int CustomWindowTitleBackground=0x7f080005;
-        public static final int FullscreenTheme=0x7f080002;
-        public static final int MyActionBar=0x7f080001;
-        public static final int RadialMenuLegacyTitleBar=0x7f080006;
+        public static final int AppTheme=0x7f090000;
+        public static final int AppTheme_FullScreen=0x7f090007;
+        public static final int ButtonBar=0x7f090003;
+        public static final int ButtonBarButton=0x7f090004;
+        public static final int CustomWindowTitleBackground=0x7f090005;
+        public static final int FullscreenTheme=0x7f090002;
+        public static final int MyActionBar=0x7f090001;
+        public static final int RadialMenuLegacyTitleBar=0x7f090006;
     }
     public static final class styleable {
         /** Attributes that can be used with a ArcLayout.

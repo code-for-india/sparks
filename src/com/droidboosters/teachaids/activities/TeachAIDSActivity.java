@@ -55,6 +55,15 @@ import com.droidboosters.teachaids.utils.PullDataTask.DownloadTaskListener;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+/**
+ * Code is written as part of Code for India Hackathon at Google, Bangalore
+ * Dated 10/05/2014
+ * This app is aimed at helping TeachAIDS NGO 
+ * @author Karthi
+ *
+ */
+
+
 @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
 public class TeachAIDSActivity extends FragmentActivity implements
 		FragmentToActivity {
@@ -503,15 +512,15 @@ public class TeachAIDSActivity extends FragmentActivity implements
 	
 
 		String photourljson = sharedPreferences.getString("photourldata",
-				"celebrity");
-		if (photourljson.equals("celebrity")) {
+				"hell");
+		if (photourljson.equals("hell")) {
 			getPhotosTask = new PullDataTask();
 
 			getPhotosTask.execute(getResources()
 					.getString(R.string.domain_name)
 					+ getResources().getString(R.string.api_path)
 					+ "?name="
-					+ getResources().getString(R.string.celebrity_name));
+					+ getResources().getString(R.string.pass_name));
 
 			getPhotosTask.setDownloadListener(new DownloadTaskListener() {
 
@@ -523,15 +532,7 @@ public class TeachAIDSActivity extends FragmentActivity implements
 						AppConstants.videosList.clear();
 						AppConstants.trailervideosList.clear();
 
-						jsonarray = data.getJSONArray("images");
-						for (int i = 0; i < jsonarray.length(); i++) {
-							jsonobject = jsonarray.getJSONObject(i);
-							AppConstants.imageThumbUrls.add(i,
-									(jsonobject.getString("image_thumb_url")));
-							AppConstants.imageUrls.add(i,
-									(jsonobject.getString("image_url")));
 
-						}
 						jsonarray = data.getJSONArray("videos");
 						for (int i = 0; i < jsonarray.length(); i++) {
 							jsonobject = jsonarray.getJSONObject(i);
@@ -544,21 +545,8 @@ public class TeachAIDSActivity extends FragmentActivity implements
 
 						}
 
-						jsonarray = data.getJSONArray("trailers");
-						for (int i = 0; i < jsonarray.length(); i++) {
-							jsonobject = jsonarray.getJSONObject(i);
-							AppConstants.trailervideosList.add(new VideosModel(
-									jsonobject.getString("video_id"),
-									jsonobject.getString("video_url"),
-									jsonobject.getString("video_thumb_url"),
-									jsonobject.getString("video_title")));
-
-						}
-
 						String jsonVideoList = gson
 								.toJson(AppConstants.videosList);
-						String jsonTrailerVideoList = gson
-								.toJson(AppConstants.trailervideosList);
 						ArrayList<String> list = AppConstants.imageUrls;
 						ArrayList<String> list1 = AppConstants.imageThumbUrls;
 
@@ -573,14 +561,10 @@ public class TeachAIDSActivity extends FragmentActivity implements
 							editor.putString("photourldata", a.toString());
 							editor.putString("photothumburldata", a1.toString());
 							editor.putString("photovideodata", jsonVideoList);
-							editor.putString("phototrailervideodata",
-									jsonTrailerVideoList);
-
 						} else {
 							editor.putString("photourldata", null);
 							editor.putString("photothumburldata", null);
 							editor.putString("photovideodata", null);
-							editor.putString("phototrailervideodata", null);
 						}
 						editor.commit();
 
