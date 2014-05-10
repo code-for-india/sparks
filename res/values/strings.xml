@@ -31,6 +31,8 @@
     <string name="audios">AUDIOS</string>
     <string name="prevention">PREVENTION</string>
     
+    <string name="listen">Listen</string>
+    
 
     <!-- Nav Drawer List Item Icons -->
     <!-- Keep them in order as the titles are in -->

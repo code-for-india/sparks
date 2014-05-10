@@ -28,7 +28,7 @@ public final class R {
 		public static final int yourdeals_circle_icon_pressed = 0x7f02002a;
 	}
 	public static final class id {
-		public static final int control_hint = 0x7f0b0024;
+		public static final int control_hint = 0x7f0b0027;
 		public static final int control_layout = 0x7f0b0018;
 		public static final int item_layout = 0x7f0b0017;
 	}
