@@ -1,0 +1,34 @@
+<resources>
+	<color name="splash_bg_color">#145fad</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="home_background">#c3c3c3</color>
+    <color name="background_color">#333333</color>
+    <color name="splash_text_color">#fff</color>
+    <color name="white_color">#ffffff</color>
+    <color name="login_page_text_color">#727272</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#1b1b1b</color>
+    <color name="list_background_pressed">#0f0f0f</color>
+    <color name="list_divider">#313131</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="main_color">#4a4a4a</color>
+    <color name="actionbar_bottomcolor">#ecf0f1</color>    
+    <color name="ratenow_text_color">#222222</color>
+    <color name="grid_state_pressed">#BB7dbcd3</color>
+    <color name="grid_state_focused">#777dbcd3</color>
+    <color name="home_icon_color">#8e44ad</color> 
+    <color name="photos_icon_color">#3498db</color>
+    <color name="videos_icon_color">#e67e22</color>
+    <color name="trailer_videos_icon_color">#00cc00</color>
+    <color name="whatshot_icon_color">#c0392b</color> 
+    <color name="social_icon_color">#b147ff</color>		
+    <color name="settings_icon_color">#f1c40f</color>
+    <color name="facebook_icon_color">#3b5998</color>
+     <color name="profile_icon_color">#ff0f75</color>
+    <color name="settings_text_color">#4d4d4d</color>
+    <color name="videos_item_background">#353535</color>
+    <color name="videos_item_dividertop">#101112</color>
+    <color name="videos_item_dividerbottom">#4d4d4d</color>
+    <color name="videos_item_text">#ffffff</color>
+</resources>

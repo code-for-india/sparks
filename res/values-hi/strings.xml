@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">टीच एड्स </string>
+    <string name="action_settings">सेट्टिंग्स</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="company">टीच एड्स, 2014</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>होमे</item>
+        <item>परिचय</item>
+        <item>तथ्यों</item>
+        <item>प्रश्नोत्तरी</item>
+        <item>वीडियो</item>
+        <item>ऑडियो</item>
+        <item>रोकथाम</item>
+    </string-array>
+
+    <string name="home">होमे</string>
+    <string name="introduction">परिचय</string>
+    <string name="facts">तथ्यों</string>
+    <string name="quiz">प्रश्नोत्तरी</string>
+    <string name="videos">वीडियो</string>
+    <string name="audios">ऑडियो</string>
+    <string name="prevention">रोकथाम</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="english">इंग्लीश </string>
+ <string name="tamil">तमिल </string>
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_checkin</item>
+        <item>@drawable/ic_mydeals</item>
+        <item>@drawable/ic_alldeals</item>
+        <item>@drawable/ic_clicknshare</item>
+        <item>@drawable/ic_friends</item>
+        <item>@drawable/ic_settings</item>
+    </array>
+
+    <string name="rolling_text">"प्रशंसनीय, मानवीय काम  टीच एड्स  बच्चों को दुनिया भर के लिए शैक्षिक सामग्री के माध्यम से एचआईवी / एड्स का मुकाबला करने के लिए एक संयुक्त मोर्चा बनाने में, बाहर ले जा रहा है का संबंध है, मैं खुशी से मेरी मदद की पेशकश करना चाहते हैं. हम चुप्पी को तोड़ने और इस रोग को घेरने वाले कलंक को दूर करके इस महामारी से निपटने कर सकते हैं." - अमिताभ बच्चन  </string>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TeachAIDS</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="company">TeachAIDS, 2014</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+   <string name="domain_name">http://celebrityprofile.in</string>
+    <string name="api_path">/api/</string>
+    <string name="celebrity_name">deepika_padukone</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >HOME</item>
+        <item >INTRODUCTION</item>
+        <item >FACTS </item>
+        <item >QUIZ</item>
+        <item >VIDEOS</item>
+        <item >AUDIOS</item>
+        <item >PREVENTION</item>
+    </string-array>
+    
+    <string name="home">HOME</string>
+    <string name="introduction">INTRODUCTION</string>
+    <string name="facts">FACTS</string>
+    <string name="quiz">QUIZ</string>
+    <string name="videos">VIDEOS</string>
+    <string name="audios">AUDIOS</string>
+    <string name="prevention">PREVENTION</string>
+    
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_checkin</item>
+        <item>@drawable/ic_mydeals</item>
+        <item>@drawable/ic_alldeals</item>
+        <item>@drawable/ic_clicknshare</item>
+        <item>@drawable/ic_friends</item>
+        <item>@drawable/ic_settings</item>
+    </array>
+    
+    <string name="hindi">Hindi</string>
+     <string name="english">English</string>
+     <string name="tamil">Tamil</string>
+    
+    <string name="rolling_text">
+"As regards the laudable, humane work TeachAIDS is carrying out, in creating a united front to combat HIV/AIDS, by means of educational material for children the world over, I would willingly like to offer my help. We can tackle this epidemic by breaking the silence and removing the stigma that surrounds this disease." - Amitabh Bachchan</string>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>
