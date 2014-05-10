@@ -37,7 +37,7 @@
             android:paddingTop="25dp"
             android:text="Loading next video in..."
             android:textColor="@color/counter_text_color"
-            android:textSize="30sp" />
+            android:textSize="22sp" />
 
         <TextView
             android:id="@+id/counter_text"
@@ -48,7 +48,7 @@
             android:gravity="center"
             android:text="12"
             android:textColor="@color/white_color"
-            android:textSize="80sp" />
+            android:textSize="70sp" />
 
         <TextView
             android:id="@+id/seconds"
@@ -61,30 +61,29 @@
             android:textColor="@color/counter_text_color"
             android:textSize="20sp" />
 
-        <ImageView
-            android:id="@+id/lady"
-            android:layout_width="100dp"
-            android:layout_height="220dp"
-            android:layout_alignBottom="@+id/seconds"
-            android:layout_marginRight="72dp"
-            android:layout_toLeftOf="@+id/counter_text"
-            android:src="@drawable/lady" />
-
         <TextView
             android:id="@+id/next_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/nextvideo"
-            android:layout_alignTop="@+id/lady"
-            android:text="Next >>>"
-            android:textSize="20sp" />
+            android:layout_alignTop="@+id/counter_text"
+            android:text="Next >>>" />
+
+        <ImageView
+            android:id="@+id/lady"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/next_video_header"
+            android:src="@drawable/lady" />
 
         <ImageView
             android:id="@+id/nextvideo"
-            android:layout_width="200dp"
-            android:layout_height="130dp"
-            android:layout_below="@+id/next_text"
-            android:layout_toRightOf="@+id/next_video_header"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/counter_text"
             android:src="@drawable/ic_launcher" />
 
     </RelativeLayout>

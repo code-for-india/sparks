@@ -108,13 +108,13 @@ int id icon 0x7f0b001b
 int id imageBackground 0x7f0b0020
 int id imageView 0x7f0b0008
 int id item_layout 0x7f0b0017
-int id lady 0x7f0b0012
+int id lady 0x7f0b0013
 int id list_slidermenu 0x7f0b0016
 int id loginButton 0x7f0b0006
 int id logo 0x7f0b0002
-int id next_text 0x7f0b0013
+int id next_text 0x7f0b0011
 int id next_video_header 0x7f0b000e
-int id nextvideo 0x7f0b0011
+int id nextvideo 0x7f0b0012
 int id overlay 0x7f0b0021
 int id password 0x7f0b0005
 int id post_video_layout 0x7f0b000d

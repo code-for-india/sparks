@@ -183,13 +183,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int imageBackground=0x7f0b0020;
         public static final int imageView=0x7f0b0008;
         public static final int item_layout=0x7f0b0017;
-        public static final int lady=0x7f0b0012;
+        public static final int lady=0x7f0b0013;
         public static final int list_slidermenu=0x7f0b0016;
         public static final int loginButton=0x7f0b0006;
         public static final int logo=0x7f0b0002;
-        public static final int next_text=0x7f0b0013;
+        public static final int next_text=0x7f0b0011;
         public static final int next_video_header=0x7f0b000e;
-        public static final int nextvideo=0x7f0b0011;
+        public static final int nextvideo=0x7f0b0012;
         public static final int overlay=0x7f0b0021;
         public static final int password=0x7f0b0005;
         public static final int post_video_layout=0x7f0b000d;
