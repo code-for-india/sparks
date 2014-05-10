@@ -4,11 +4,11 @@ import android.app.Activity;
 import android.content.SharedPreferences;
 
 /**
- * Created by karthi on 12/04/14.
+ * Created by karthi on 11/05/14.
  */
 public class SharedPreferencesController {
 
-    private static final String SHARED_PREF_NAME = "yourdeals_pref";
+    private static final String SHARED_PREF_NAME = "teachkids_pref";
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
 
