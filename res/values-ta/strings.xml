@@ -19,6 +19,8 @@
         <item>டீச் எய்ட்ஸ்</item>
         <item>தடுத்தல்</item>
     </string-array>
+    
+       <string name="fact">உண்மை</string>
 
     <string name="home">ஹோம் </string>
     <string name="introduction">அறிமுகப்படுத்துதல்</string>

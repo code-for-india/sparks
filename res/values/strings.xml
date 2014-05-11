@@ -48,6 +48,8 @@
         <item>@drawable/ic_friends</item>
         <item>@drawable/ic_settings</item>
     </array>
+    
+    <string name="fact">FACT</string>
 
     <string name="yes">YES</string>
     <string name="no">NO</string>

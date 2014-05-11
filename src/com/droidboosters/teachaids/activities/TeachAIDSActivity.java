@@ -148,14 +148,13 @@ public class TeachAIDSActivity extends FragmentActivity implements
 				R.string.facts), navMenuIcons.getResourceId(2, -1)));
 
 		navDrawerItems.add(new NavDrawerItem(getResources().getString(
-				R.string.quiz), navMenuIcons.getResourceId(3, -1), true, "22"));
+				R.string.quiz), navMenuIcons.getResourceId(3, -1)));
 
 		navDrawerItems.add(new NavDrawerItem(getResources().getString(
 				R.string.videos), navMenuIcons.getResourceId(4, -1)));
 
 		navDrawerItems.add(new NavDrawerItem(getResources().getString(
-				R.string.audios), navMenuIcons.getResourceId(5, -1), true,
-				"50+"));
+				R.string.audios), navMenuIcons.getResourceId(5, -1)));
 
 		navDrawerItems.add(new NavDrawerItem(getResources().getString(
 				R.string.prevention), navMenuIcons.getResourceId(6, -1)));
