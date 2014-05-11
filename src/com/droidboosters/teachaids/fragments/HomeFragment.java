@@ -90,7 +90,7 @@ public class HomeFragment extends Fragment {
                 @Override
                 public void onClick(View v) {
                     fragmentToActivity.callFragment(position);
-                    Toast.makeText(getActivity(), "position:" + position, Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(getActivity(), "position:" + position, Toast.LENGTH_SHORT).show();
                 }
             });
         }
